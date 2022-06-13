@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    tools:cardCornerRadius="20dp"
+    app:cardBackgroundColor="@color/transparente"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/imagen_tarea"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/user"></ImageView>
+
+        <TextView
+            android:id="@+id/nombre_hijo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="37dp"
+            android:layout_toEndOf="@id/imagen_tarea"
+            android:layout_toRightOf="@id/imagen_tarea"
+            android:text="NOMBRE HIJO"
+            android:textColor="#0019FF"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="93dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="23dp"
+            android:layout_toEndOf="@+id/nombre_hijo"
+            app:srcCompat="@android:drawable/btn_plus" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

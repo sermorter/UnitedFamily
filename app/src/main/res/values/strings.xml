@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">United Family</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="invalid_mail">mail incorrecto</string>
+    <string name="invalid_password">Contraseña incorrecta(6 digitos)</string>
+    <string name="loginexitoso">Logueado Correctamente</string>
+    <string name="erroricreden">Error al loguear</string>
+    <string name="cargandoregisttro">Cargando Registro</string>
+    <string name="nocoincide">No Coincide</string>
+    <string name="usuariocreado">Usuario Creado</string>
+    <string name="acepta">Por Favor, Acepta los Terminos y Condiciones</string>
+    <string name="title_activity_home">Home</string>
+    <string name="deslogueadocorrectamente">Deslogueado Correctamente!</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+    <string name="introducetipo">Seleccione el tipo de Familiar</string>
+    <string name="title_activity_home_padres">HomePadres</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test">TEST</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_home_hijo">HomeHijo</string>
+    <string name="title_activity_home_padre">HomePadre</string>
+    <string name="nombre">Nombre : </string>
+    <string name="aceptar">Aceptar</string>
+    <string name="saldo">Saldo :  </string>
+    <string name="puntos_actuales">Tus Puntos Actuales Son : </string>
+    <string name="estas_seguro">Estas seguro?</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="emailenviado">Email enviado correctamente</string>
+    <string name="erroremail">Error al enviar el email</string>
+    <string name="familiarasociado">Familiar Asociado!!</string>
+    <string name="yatienesunfamiliarasociado">Ya tienes un Familiar Asociado</string>
+    <string name="canjear_premio">Canjear Premio</string>
+    <string name="refresca_la_pantalla">Refresca La Pantalla</string>
+    <string name="premio_puntos_actualizados">Premio Canjeado, Puntos Actualizados.</string>
+    <string name="error_basededatos">Error en la base de datos </string>
+    <string name="puntos_insuficientes">No tienes puntos suficientes </string>
+    <string name="premio_añadido">Premio Añadido!</string>
+    <string name="rellene_nombre">Por Favor, Rellene el campo nombre!</string>
+    <string name="rellene_descripcion">Por Favor, Rellene el campo descripcion!</string>
+    <string name="rellene_precio_numerico">Por Favor, Rellene el campo precio (Numeric)</string>
+    <string name="tarea_añadida">Tarea Añadida!</string>
+    <string name="realizar_tarea">Realizar Tarea</string>
+    <string name="tarea_realizada">Tarea Realizada, Puntos Actualizados.</string>
+    <string name="tu_hijos_canjeado">Tus Hij@s no hay canjeado ningun premio todavia</string>
+    <string name="premio_canjear_ninguno">No hay ningun premio para canjear</string>
+    <string name="ninguna_tarea_realizar">No hay ninguna tarea para realizar</string>
+    <string name="asocia_tu_familiar">Asocia tu Familiar</string>
+    <string name="tareas_por_hacer">Tareas Por Hacer</string>
+    <string name="obtener_premios">Obtener Premios</string>
+    <string name="ajustes_generales">Ajustes Generales</string>
+    <string name="premios">Premios</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="tareas">Tareas</string>
+    <string name="familia">Familia</string>
+    <string name="a_adir_premio">Añadir Premio</string>
+    <string name="a_adir_tareas">Añadir Tareas</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="rasca">Rasca para consultar tus puntos!</string>
+    <string name="cambiar_contra">Cambiar Contraseña</string>
+    <string name="cambiar">Cambiar</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="bienvenido_a_unitedfamily">BIENVENIDO A UNITED FAMILY , POR FAVOR INTRODUCE EL USUARIO DE TU PADRE/MADRE</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="añadir_tarea_hijos">Añadir una tarea a tus hij@s</string>
+    <string name="introduce_nombre_tarea">Introduce el nombre de la tarea</string>
+    <string name="introduce_desc_tarea">Introduce la descripcion de la tarea</string>
+    <string name="introduce_precio_tarea">Introduce el premio de la tarea</string>
+    <string name="añadir_premio_hijos">Añade un premio a tus hij@s</string>
+    <string name="introduce_nombre_premio">Introduce el nombre del premio </string>
+    <string name="introduce_desc_premio">Introduce la descripcion del premio </string>
+    <string name="introduce_precio_premio">Introduce el precio del premio</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="usuario">Usuario</string>
+    <string name="registro">REGISTRO</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="repite_la_contrase_a">Repite la contraseña</string>
+    <string name="acepto_los_terminos_y_condiciones">Acepto los terminos y condiciones</string>
+    <string name="padre_madre">Padre / Madre</string>
+    <string name="hijo_hija">Hijo / Hija</string>
+    <string name="Tutorial">1.- Tu hij@  tiene que introducir tu nombre para  asociaros \n
+                            2.- Crea tareas para tus hij@s \n
+                            3.- Crea premios para tus hij@s\n
+                            4.- Consulta el premio reclamado de cada hijo</string>
+    <string name="introduce_nombre">Por Favor , Introduce el nombre del familiar que quieres asociar</string>
+    <string name="compartir_app">Compartir la APK</string>
+    <string name="descarga_apk">\"Descarga United Family mediante este link \"</string>
+    <string name="tarea_realizada_lista">HAS REALIZADO LA TAREA?</string>
+    <string name="selecciona_para_comprar">SELECCIONA PARA COMPRAR</string>
+    <string name="puntos">puntos</string>
+
+
+
+</resources>

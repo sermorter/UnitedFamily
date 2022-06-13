@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="@string/bienvenido">
+        <menu>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fragmentiniciopadre"
+            android:icon="@drawable/bienvenido"
+            android:title="@string/bienvenido" />
+
+    </group>
+</menu>
+    </item>
+    <item android:title="@string/tareas">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+        android:id="@+id/fragment_fragmenttareapadre"
+        android:icon="@drawable/tarea"
+        android:title="@string/a_adir_tareas" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/premios">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/fragmentpremiospadre"
+                    android:icon="@drawable/premio"
+                    android:title="@string/a_adir_premio" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/ajustes">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/fragmentajustespadre"
+                    android:icon="@drawable/ajustes"
+                    android:title="@string/ajustes_generales" />
+            </group>
+        </menu>
+    </item>
+        </menu>

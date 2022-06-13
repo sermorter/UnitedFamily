@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/fragmentiniciohijo">
+
+
+    <fragment
+        android:id="@+id/fragmentiniciohijo"
+        android:name="com.example.unitedfamily.fragmentiniciohijo"
+        android:label="@string/asocia_tu_familiar"
+        tools:layout="@layout/fragment_fragmentiniciohijo" />
+    <fragment
+        android:id="@+id/fragmentajusteshijo"
+        android:name="com.example.unitedfamily.fragmentajusteshijo"
+        android:label="@string/ajustes"
+        tools:layout="@layout/fragment_fragmentajusteshijo" />
+    <fragment
+        android:id="@+id/fragmenttareashijo"
+        android:name="com.example.unitedfamily.fragmenttareashijo"
+        android:label="@string/tareas_por_hacer"
+        tools:layout="@layout/fragment_fragmenttareashijo" />
+    <fragment
+        android:id="@+id/fragmentpremioshijo"
+        android:name="com.example.unitedfamily.fragmentpremioshijo"
+        android:label="@string/obtener_premios"
+        tools:layout="@layout/fragment_fragmentpremioshijo" />
+</navigation>

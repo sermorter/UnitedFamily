@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">United Family</string>
+    <string name="title_activity_menu">Home</string>
+    <string name="invalid_mail">Incorrect email</string>
+    <string name="invalid_password">Invalid Password(6 digits)</string>
+    <string name="loginexitoso">"logged in correctly "</string>
+    <string name="erroricreden">Log In error</string>
+    <string name="cargandoregisttro">Loading Register</string>
+    <string name="nocoincide">Passwords do not match</string>
+    <string name="usuariocreado">User created</string>
+    <string name="acepta">Please, Accept terms and conditions</string>
+    <string name="deslogueadocorrectamente">Successfully logged out</string>
+    <string name="cerrar_sesion">Log Out</string>
+    <string name="introducetipo">Select the person type</string>
+    <string name="nombre">\"Name : \"</string>
+    <string name="aceptar">Accept</string>
+    <string name="saldo">\"Balance : \"</string>
+    <string name="puntos_actuales">\"Your balance is : \"</string>
+    <string name="estas_seguro">Are you sure?</string>
+    <string name="cancelar">Cancel</string>
+    <string name="emailenviado">Email sent correctly</string>
+    <string name="erroremail">Error sending the email</string>
+    <string name="familiarasociado">Associated family!!</string>
+    <string name="yatienesunfamiliarasociado">You already have a Family Member</string>
+    <string name="canjear_premio">Redeem prize</string>
+    <string name="refresca_la_pantalla">REFRESH THE SCREEN</string>
+    <string name="premio_puntos_actualizados">Redeemed price, Updated Points</string>
+    <string name="error_basededatos">\"Error in the database\"</string>
+    <string name="puntos_insuficientes">\"You dont have enought points\"</string>
+    <string name="premio_añadido">Price Added!</string>
+    <string name="rellene_nombre">Please, Fill in the name field</string>
+    <string name="rellene_descripcion">Please, Fill in the description field</string>
+    <string name="rellene_precio_numerico">Please , Fill in the price field(Numeric)</string>
+    <string name="tarea_añadida">Task Added!</string>
+    <string name="realizar_tarea">Perform task</string>
+    <string name="tarea_realizada">Task Done, Updated Points</string>
+    <string name="tu_hijos_canjeado">Your children have not redeemed any prizes yet </string>
+    <string name="premio_canjear_ninguno">There is no price to redeem</string>
+    <string name="ninguna_tarea_realizar">There is no task to do</string>
+    <string name="asocia_tu_familiar">Associate your relative</string>
+    <string name="tareas_por_hacer">Tasks to do</string>
+    <string name="obtener_premios">Redeem gifts</string>
+    <string name="ajustes_generales">General Settings</string>
+    <string name="premios">Gifts</string>
+    <string name="ajustes">Settings</string>
+    <string name="tareas">Tasks</string>
+    <string name="familia">Family</string>
+    <string name="a_adir_premio">Add Gifts</string>
+    <string name="a_adir_tareas">Add Tasks</string>
+    <string name="bienvenido">Welcome</string>
+    <string name="rasca">Scratch to know your balance</string>
+    <string name="cambiar_contra">Change Password</string>
+    <string name="cambiar">Change</string>
+    <string name="notificaciones">Notifications</string>
+    <string name="bienvenido_a_unitedfamily">WELCOME TO UNITED FAMILY, POLEASE ENTER THE NAME OF YOUR RELATIVE</string>
+    <string name="confirmar">Confirm</string>
+    <string name="añadir_tarea_hijos">Add a task to your childrens</string>
+    <string name="introduce_nombre_tarea">Introduce the name of the task</string>
+    <string name="introduce_desc_tarea">Introduce the description of the task</string>
+    <string name="introduce_precio_tarea">introduce the pricepool of the task</string>
+    <string name="añadir_premio_hijos">Add a gift for your childrens</string>
+    <string name="introduce_nombre_premio">Introduce the name of the gift</string>
+    <string name="introduce_desc_premio">Introduce the description of the gift</string>
+    <string name="introduce_precio_premio">introduce the price of the gift</string>
+    <string name="contrase_a">Password</string>
+    <string name="usuario">User</string>
+    <string name="registro">REGISTER</string>
+    <string name="entrar">LOG IN</string>
+    <string name="repite_la_contrase_a">Repeat the password</string>
+    <string name="acepto_los_terminos_y_condiciones">Accept terms and conditions</string>
+    <string name="padre_madre">Father / Mother</string>
+    <string name="hijo_hija">Son / Daughter</string>
+    <string name="Tutorial">1.- Your children have to introduce your name to associate \n
+                            2.- Create tasks for your children \n
+                            3.- Create gifts for your children \n
+                            4.- Check the prize claimed for each child</string>
+    <string name="introduce_nombre">Please , Introduce the name of the of your relative </string>
+    <string name="compartir_app">Share the APK</string>
+    <string name="descarga_apk">Download Family United through this link</string>
+    <string name="tarea_realizada_lista">HAVE YOU DONE THE TASK</string>
+    <string name="selecciona_para_comprar">SELECT TO BUY</string>
+    <string name="puntos">points</string>
+
+
+
+</resources>

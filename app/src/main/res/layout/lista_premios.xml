@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/transparente"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_google_signin_btn_text_dark"
+        android:padding="10dp"
+        tools:cardCornerRadius="20dp">
+
+        <ImageView
+            android:id="@+id/imagen_tarea"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/regalo"></ImageView>
+
+        <TextView
+            android:id="@+id/nombre_hijo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@id/imagen_tarea"
+            android:layout_toRightOf="@id/imagen_tarea"
+            android:text="NOMBRE PREMIO"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/descripcion_premio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nombre_hijo"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@id/imagen_tarea"
+            android:layout_toRightOf="@+id/imagen_tarea"
+            android:text="descripcion de la premio bla bla"
+            android:textColor="#FFFFFF"></TextView>
+
+        <TextView
+            android:id="@+id/precio_premio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nombre_hijo"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="28dp"
+            android:layout_toEndOf="@id/imagen_tarea"
+            android:layout_toRightOf="@+id/imagen_tarea"
+            android:text="precio bla bla"
+            android:textColor="#FFFFFF"></TextView>
+
+        <TextView
+            android:id="@+id/comprar_tarea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/descripcion_premio"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="33dp"
+            android:layout_toEndOf="@id/imagen_tarea"
+            android:layout_toRightOf="@id/imagen_tarea"
+            android:background="#F86637"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:text="SELECCIONA PARA COMPRAR"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold"></TextView>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

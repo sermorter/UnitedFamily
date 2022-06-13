@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragmentajusteshijo"
+    android:background="@drawable/fondofragmentos">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="740dp"
+        android:text="Sergio Moreno Terán DAM-2"
+        android:textColor="#B1B1B1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginEnd="28dp"
+        android:text="@string/cerrar_sesion"
+        android:textColor="#0019FF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginEnd="28dp"
+        android:text="@string/notificaciones"
+        android:textColor="#0019FF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="42dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="28dp"
+        android:src="@drawable/notificacion" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="42dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="28dp"
+        android:src="@drawable/contrasena" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="238dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginEnd="28dp"
+        android:textColor="#001AFF" />
+
+    <Button
+        android:id="@+id/btcontraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginEnd="28dp"
+        android:background="#0019FF"
+        android:text="@string/cambiar" />
+
+    <Button
+        android:id="@+id/btlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="28dp"
+        android:background="#0019FF"
+        android:padding="10dp"
+        android:text="@string/cerrar_sesion" />
+
+    <ImageView
+        android:id="@+id/imageViewcs"
+        android:layout_width="42dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="28dp"
+        android:src="@drawable/cerrarsesion" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="28dp"
+        android:text="@string/cambiar_contra"
+        android:textColor="#0019FF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    -
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="161dp"
+        android:padding="30dp"
+        android:src="@drawable/bannerlogo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="740dp"
+        android:text="Version 1.2"
+        android:textColor="#B1B1B1" />
+
+</FrameLayout>
